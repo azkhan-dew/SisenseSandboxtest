@@ -1,0 +1,187 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "CountryCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CountryCode",
+            "oid": "343fb9ff-8148-4748-8200-9ed5c81c5511",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "CountryName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CountryName",
+            "oid": "e4782619-4836-40a0-b230-f83e8eb19300",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "CustomerID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CustomerID",
+            "oid": "6c77ab8a-f2fa-4f8e-b195-9750c076e8ce",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "EmployeeID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "EmployeeID",
+            "oid": "7ac84885-7efe-4c66-9695-7c102112be0d",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Freight",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Freight",
+            "oid": "38e754bc-1eee-4079-a471-048674e072eb",
+            "precision": 16,
+            "scale": 16,
+            "size": 50,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "OnlineOrderFlag",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "OnlineOrderFlag",
+            "oid": "5ea2abfa-0dd6-439c-b685-1e6d4b19f401",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "OrderDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OrderDate",
+            "oid": "7ddea0b8-9694-48b4-b5aa-aec8a57b9f84",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "OrderQty",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OrderQty",
+            "oid": "77a8a615-a64c-488f-9062-230c84df5823",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "OrderRevenue",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OrderRevenue",
+            "oid": "61b74907-7dd8-44b3-863a-c712049c4927",
+            "precision": 16,
+            "scale": 16,
+            "size": 50,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "ProductID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID",
+            "oid": "4eec473c-ccef-4a0b-875b-faf2c5fa1b1a",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Region",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Region",
+            "oid": "36d35578-8261-4323-b5c3-d89cb834682e",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SalesOrderID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SalesOrderID",
+            "oid": "3bb772b7-1847-45d4-a844-abd658a5a8fc",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "UnitPrice",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "UnitPrice",
+            "oid": "90fab8d2-8897-42ad-86bb-2febc1121c0b",
+            "precision": 16,
+            "scale": 16,
+            "size": 50,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "UnitPriceDiscount",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "UnitPriceDiscount",
+            "oid": "48c6c103-cbc1-4589-a9ac-43918e2a6ee7",
+            "precision": 16,
+            "scale": 16,
+            "size": 50,
+            "type": 5
+        }
+    ],
+    "configOptions": {
+        "Table": "Fact_Sale_orders.csv"
+    },
+    "dataset": "96611494-91f4-4641-9b8a-db1db595da5c",
+    "hidden": false,
+    "id": "Fact_Sale_orders.csv",
+    "isMaterialized": false,
+    "name": "Fact_Sale_orders",
+    "oid": "89581610-5fda-4efc-8bb5-4efaef6c1264",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

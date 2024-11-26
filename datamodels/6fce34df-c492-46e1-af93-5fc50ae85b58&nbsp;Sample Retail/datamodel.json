@@ -1,0 +1,38 @@
+{
+    "buildDestination": {
+        "destination": "elasticube"
+    },
+    "datasets": [
+        "./96611494-91f4-4641-9b8a-db1db595da5c/dataset.json",
+        "./9b747a81-40e0-4aae-ba83-a5e4b6a7074a/dataset.json",
+        "./a3f26b45-13a5-46b9-985b-b1c9717773f0/dataset.json",
+        "./a3f3fd08-b60e-4976-9525-3b50c2f271f9/dataset.json",
+        "./c322708e-7a42-4d43-8981-8847466aa0f5/dataset.json",
+        "./c859c738-16ca-42d4-8413-b8c82b6d5a18/dataset.json",
+        "./e9756fb6-1853-45ab-b22b-ee5ff3e8fd6e/dataset.json"
+    ],
+    "dependencies": {
+        "perspectives": [
+            "./6fce34df-c492-46e1-af93-5fc50ae85b58/perspective.json"
+        ]
+    },
+    "experiments": {
+    },
+    "fiscal": "system",
+    "hierarchies": [
+    ],
+    "modelStatistics": {
+        "enableModelStatistics": true,
+        "maxTablesPerCollection": 0,
+        "recollectStatsInterval": 0
+    },
+    "oid": "6fce34df-c492-46e1-af93-5fc50ae85b58",
+    "relationType": "regular",
+    "relations": "./relations.json",
+    "relationsTables": [
+    ],
+    "schemaId": null,
+    "shouldUpdateScheduleOnManualBuild": null,
+    "title": "Sample Retail",
+    "type": "extract"
+}

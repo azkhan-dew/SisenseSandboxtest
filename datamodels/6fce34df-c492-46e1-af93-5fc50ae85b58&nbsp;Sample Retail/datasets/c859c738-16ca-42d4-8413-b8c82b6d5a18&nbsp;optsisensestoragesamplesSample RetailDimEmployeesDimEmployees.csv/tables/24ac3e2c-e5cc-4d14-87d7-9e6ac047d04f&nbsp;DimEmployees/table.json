@@ -1,0 +1,67 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "EmployeeID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "EmployeeID",
+            "oid": "a3ea252c-74ba-44ed-b6ef-14fbc750e558",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "EmployeeName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "EmployeeName",
+            "oid": "be4582fb-9431-4547-9796-583816d2b79a",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TeamManger",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "TeamManger",
+            "oid": "e281e524-d924-45c5-96ab-54af29329242",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TeamID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TeamID",
+            "oid": "9a10e4bf-f465-490b-b7c4-eca2b14b9892",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+        "Table": "DimEmployees.csv"
+    },
+    "dataset": "c859c738-16ca-42d4-8413-b8c82b6d5a18",
+    "hidden": false,
+    "id": "DimEmployees.csv",
+    "isMaterialized": false,
+    "name": "DimEmployees",
+    "oid": "24ac3e2c-e5cc-4d14-87d7-9e6ac047d04f",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

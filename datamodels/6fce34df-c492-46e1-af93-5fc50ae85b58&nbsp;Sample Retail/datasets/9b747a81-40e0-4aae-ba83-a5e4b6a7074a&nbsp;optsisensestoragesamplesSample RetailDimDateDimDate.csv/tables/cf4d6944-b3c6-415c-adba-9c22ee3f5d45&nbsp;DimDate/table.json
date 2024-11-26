@@ -1,0 +1,31 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "Date",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Date",
+            "oid": "23bad658-5a96-495f-acdd-e4f903930def",
+            "precision": 0,
+            "scale": 0,
+            "size": 8,
+            "type": 4
+        }
+    ],
+    "configOptions": {
+        "Table": "DimDate.csv"
+    },
+    "dataset": "9b747a81-40e0-4aae-ba83-a5e4b6a7074a",
+    "hidden": false,
+    "id": "DimDate.csv",
+    "isMaterialized": false,
+    "name": "DimDate",
+    "oid": "cf4d6944-b3c6-415c-adba-9c22ee3f5d45",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,55 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "CountryCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CountryCode",
+            "oid": "b4875fef-5470-465e-b37b-80256ba99bc2",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CountryName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CountryName",
+            "oid": "a57220fa-f181-47b5-94ca-80910cb6076f",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Region",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Region",
+            "oid": "8e9fbe43-2852-452c-a736-654a1d05fdb1",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "Table": "DimCountries.csv"
+    },
+    "dataset": "e9756fb6-1853-45ab-b22b-ee5ff3e8fd6e",
+    "hidden": false,
+    "id": "DimCountries.csv",
+    "isMaterialized": false,
+    "name": "DimCountries",
+    "oid": "f7fcac55-376b-4b8e-9d2c-347415cd961b",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}
